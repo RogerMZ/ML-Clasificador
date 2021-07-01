@@ -22,7 +22,11 @@ $ conda create --name guruday python=3.6 pip tensorflow keras
 $ conda activate guruday
 ```
 
-  - A continuación ejecuta:
+  - Intala dependencias faltantes:
 ```sh
 $ conda install pandas scikit-image scikit-learn scipy jupyter matplotlib imageio
+```
+  - Ejecuta Jupyter:
+```sh
+$ jupyter notebook
 ```
